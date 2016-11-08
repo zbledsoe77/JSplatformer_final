@@ -1,0 +1,32 @@
+.background    { background: #8c8c8c;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image:url(enemy_1.png); width:32px; height:32px;}
+.wall          { background-image:url(test_1.png); width:32px; height:32px;}
+.arrow {background-image:url(up.png); width:32px; height:32px;}
+.lava2 {background-image:url(lava_main.png); width:32px; height:32px;}
+
+.actor  { position: absolute;  }
+.coin   { background-image:url(gear_3.png); width:16px; height:16px;}
+.player { background: black;}
+.fakewall { background-image:url(fakewall_2.png); width:32px; height:32px;}
+.slowblock {background-image:url(sludge.png); width:32px; height:32px;}
+.trampoline{background-image:url(trampoline.png); width:32px; height:32px;}
+
+
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
